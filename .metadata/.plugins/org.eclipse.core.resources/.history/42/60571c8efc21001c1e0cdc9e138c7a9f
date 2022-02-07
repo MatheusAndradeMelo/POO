@@ -1,0 +1,21 @@
+package ExercicioPessoaEnderecoTime;
+
+public class Teste_PessoaEnderecoTime {
+
+	public static void main(String[] args) {
+		
+		Pessoa pessoa = new Pessoa("Naruto", "12345678-78", "(21) 99123-3445");
+		Endereco endereco = new Endereco("Naruto", "12345678-78", "(21) 99123-3445", "Floriano Peixoto","Várzea", "Teresópolis" );
+		Imovel imovel = new Imovel("Naruto", "12345678-78", "(21) 99123-3445", "Alto", "Apto",580000, " ");
+		Time time = new Time("PSG", "Pochettino", "Sheik");
+		Atleta atleta = new Atleta("PSG", "Pochettino", "Sheik", "Neymar", 29, "Atacante");
+		
+		System.out.println(pessoa.toString());
+		System.out.println(endereco.toString());
+		System.out.println(imovel.toString());
+		System.out.println(time.toString());
+		System.out.println(atleta.toString());
+
+	}
+
+}

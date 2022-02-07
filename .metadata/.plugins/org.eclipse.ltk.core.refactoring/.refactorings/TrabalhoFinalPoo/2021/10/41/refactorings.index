@@ -1,0 +1,7 @@
+1633606456021	Rename type 'Enum'
+1633606730005	Rename type 'EnumCategoria'
+1633609345515	Encapsulate field 'quantidadeEpisiodios'
+1633609358687	Encapsulate field 'quantidadeTemporadas'
+1633628305561	Encapsulate field 'quantidadeEpisiodios'
+1633628313425	Encapsulate field 'numeroTemporada'
+1633741952875	Delete element

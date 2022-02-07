@@ -1,0 +1,15 @@
+package ExercicioPessoaEnderecoTime;
+
+public class Time {
+	
+	protected String nomeTime;
+	protected String tecnico;
+	protected String diretor;
+	
+	public Time(String nomeTime, String tecnico, String diretor) {
+		super();
+		this.nomeTime = nomeTime;
+		this.tecnico = tecnico;
+		this.diretor = diretor;
+	}
+}

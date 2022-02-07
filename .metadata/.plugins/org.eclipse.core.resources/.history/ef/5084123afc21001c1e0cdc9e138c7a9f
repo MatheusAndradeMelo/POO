@@ -1,0 +1,16 @@
+package ExercicioPessoaEnderecoTime;
+
+public class Atleta extends Time{
+	
+	protected String nomeAtleta;
+	protected int idadeAtleta;
+	protected String posicaoJoga;
+	
+	public Atleta(String nomeTime, String tecnico, String diretor, String nomeAtleta, int idadeAtleta,
+			String posicaoJoga) {
+		super(nomeTime, tecnico, diretor);
+		this.nomeAtleta = nomeAtleta;
+		this.idadeAtleta = idadeAtleta;
+		this.posicaoJoga = posicaoJoga;
+	}
+}

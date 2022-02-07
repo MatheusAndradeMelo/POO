@@ -1,0 +1,35 @@
+package ExercicioPessoaEnderecoTime;
+
+public class Imovel extends Pessoa{
+	
+	protected String local;
+	protected String tipoImovel;
+	protected double valorImovel;
+	protected String donoPessoa;
+	
+	public Imovel(String nome, String cpf, String telefone, String local, String tipoLocal, double valorImovel,
+			String donoPessoa) {
+		super(nome, cpf, telefone);
+		this.local = local;
+		this.tipoImovel = tipoLocal;
+		this.valorImovel = valorImovel;
+		this.donoPessoa = getNome();
+	}
+
+	public String getTipoLocal() {
+		return tipoImovel;
+	}
+
+	public void setTipoLocal(String tipoLocal) {
+		this.tipoImovel = tipoLocal;
+	}
+
+	public double getValorImovel() {
+		return valorImovel;
+	}
+
+	public void setValorImovel(double valorImovel) {
+		this.valorImovel = valorImovel;
+	}
+	
+}

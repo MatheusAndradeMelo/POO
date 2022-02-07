@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Exercicio_um.serratec.Exercicio_UmPoo&apos; to &apos;SituacaoAluno&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_Um_Poo&apos;&#x0D;&#x0A;- Original element: &apos;Exercicio_um.serratec.Exercicio_UmPoo&apos;&#x0D;&#x0A;- Renamed element: &apos;Exercicio_um.serratec.SituacaoAluno&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Exercicio_UmPoo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Exercicio_um.serratec{Exercicio_UmPoo.java[Exercicio_UmPoo" matchStrategy="1" name="SituacaoAluno" qualified="false" references="true" similarDeclarations="false" stamp="1632607994015" textual="false" version="1.0"/>
+</session>
